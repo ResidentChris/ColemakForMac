@@ -84,7 +84,7 @@
 #define MC_APP LCTL(KC_DOWN)
 #define COMPLETE C(KC_SPC)
 #define CONTEXT A(KC_ENT)
-#define FIND RCS(CK_F)
+#define FIND LSG(KC_F)
 #define VSMENU RCS(CK_P)
 #define TEST RCS(CK_T)
 #define RENAME S(KC_F6)
@@ -126,7 +126,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_COLEMAK] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     MC_ALL  ,COMPLETE,CONTEXT ,FIND    ,VSMENU  ,TEST                               ,MC_LEFT ,USAGES  ,MC_FILL ,MC_RGHT ,HINT    ,MC_APP
+     MC_APP  ,COMPLETE,CONTEXT ,FIND    ,VSMENU  ,TEST                               ,MC_LEFT ,USAGES  ,MC_FILL ,MC_RGHT ,HINT    ,MC_ALL
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
     ,KC_TAB  ,KC_Q    ,KC_W    ,KC_F    ,KC_P    ,KC_B                               ,KC_J    ,KC_L    ,KC_U    ,KC_Y    ,KC_SCLN ,KC_BSPC
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
