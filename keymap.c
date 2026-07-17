@@ -90,7 +90,7 @@
 #define RENAME S(KC_F6)
 #define USAGES A(KC_F7)
 #define FORMAT LCA(CK_L)
-#define HINT C(CK_P)
+#define HINT G(KC_P)
 #define SNIP SGUI(KC_5)
 
 #define PRT_WIN A(KC_PSCR)
