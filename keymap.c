@@ -86,7 +86,7 @@
 #define CONTEXT A(KC_ENT)
 #define FIND SGUI(KC_F)
 #define VSMENU SGUI(KC_P)
-#define TEST RCS(CK_T)
+#define TEST SGUI(KC_T)
 #define RENAME S(KC_F6)
 #define USAGES A(KC_F7)
 #define FORMAT LCA(CK_L)
