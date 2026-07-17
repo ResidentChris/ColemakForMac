@@ -95,13 +95,6 @@
 
 #define PRT_WIN A(KC_PSCR)
 
-#define FZ_LMS LCAG(KC_LEFT)
-#define FZ_LS LGUI(KC_LEFT)
-#define FZ_RS LGUI(KC_RGHT)
-#define FZ_RMS LCAG(KC_RGHT)
-#define FZ_WM LCAG(CK_1)
-#define FZ_LTP LCAG(CK_2)
-
 #define MC_FILL HYPR(KC_F)
 #define MC_LEFT HYPR(KC_LEFT)
 #define MC_RGHT HYPR(KC_RGHT)
@@ -154,7 +147,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_NUMBER] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     _______ ,FZ_LTP  ,FZ_WM   ,SNIP    ,FZ_LMS  ,FZ_LS                              ,FZ_RS   ,FZ_RMS  ,_______ ,_______ ,_______ ,_______
+     _______ ,_______ ,_______ ,SNIP    ,_______ ,_______                            ,_______ ,_______ ,_______ ,_______ ,_______ ,_______
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
     ,_______ ,KC_1    ,KC_2    ,KC_3    ,KC_4    ,KC_5                               ,KC_6    ,KC_7    ,KC_8    ,KC_9    ,KC_0    ,KC_DEL
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
